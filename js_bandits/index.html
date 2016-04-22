@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<!--
+  Copyright (c) 2016, Elliott Wagner
+-->
+
+<html>
+  <head>
+    <script src="bandits.js"></script>
+    <script src="paint_network.js"></script>
+    <script src="paint_plots.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+
+  <body>
+
+  <div class="page_center_div">
+
+  <div name="display_div" class="div_side_to_side">
+   <canvas id="myCanvas" width="900" height="900" style="border:1px solid #000000;"></canvas>
+  </div>
+
+  <div name="widgets" class="div_side_to_side">
+    <fieldset class="field_group"><legend>Network Structure</legend>
+      <table>
+        <tr><td><input type="radio" name="net_radio" value="complete" onchange="reset()" checked> Complete </td><td><input type="radio" name="net_radio" value="cycle" onchange="reset()" > Cycle</td></tr>
+        <tr><td><input type="radio" name="net_radio" value="wheel" onchange="reset()" > Wheel</td><td><input type="radio" name="net_radio" value="line" onchange="reset()" > Line</td></tr>
+        <tr><td><input type="radio" name="net_radio" value="star" onchange="reset()" > Star</td><td><input type="radio" name="net_radio" value="two_cliques" onchange="reset()" > Two cliques</td></tr>
+      </table>
+    </fieldset>
+
+    <div class="div_vertical_spacer"></div>
+
+    <table>
+    <tr><td>Number of agents: </td><td><div style="width:1em"><span id="num_agents_span">9</span> </div></td><td><input type="range" id="num_agents_input" min="4" max="20" value="9" step="1" onchange="agentsSlide(this.value)" oninput="agentsSlide(this.value)"></td></tr>
+
+    <tr><td><div class="div_vertical_spacer_small"></div></td></tr>
+
+    <tr><td>Number of arms: </td><td><div style="width:1em"><span id="num_arms_span">2</span> </div></td><td> <input type="range" id="num_arms_input" min="2" max="5" value="2" step="1" onchange="armSlide(this.value)" oninput="armSlide(this.value)"></td></tr>
+    </table>
+
+    <div class="div_vertical_spacer_small"></div>
+
+    <table>
+      <tr><td><div class="div_arm_rate_spacer"></div></td><td><div style="width:50px;height:15px;border:0px;background-color: rgb(153,0,0);"></div></td><td>arm payout rate: <input type="text" name="arm_rate" id="arm_rate_0" value=".5"></td></tr>
+      <tr><td><div class="div_arm_rate_spacer"></div></td><td><div style="width:50px;height:15px;border:0px;background-color: rgb(0,61,153);"></div></td><td>arm payout rate: <input type="text" name="arm_rate" id="arm_rate_1" value=".51"></td></tr>
+      <tr><td><div class="div_arm_rate_spacer"></div></td><td><div style="width:50px;height:15px;border:0px;background-color: rgb(0,153,61);"></div></td><td>arm payout rate: <input type="text" name="arm_rate" id="arm_rate_2" value=".52" disabled></td></tr>
+      <tr><td><div class="div_arm_rate_spacer"></div></td><td><div style="width:50px;height:15px;border:0px;background-color: rgb(122,0,153);"></div></td><td>arm payout rate: <input type="text" name="arm_rate" id="arm_rate_3" value=".53" disabled></td></tr>
+      <tr><td><div class="div_arm_rate_spacer"></div></td><td><div style="width:50px;height:15px;border:0px;background-color: rgb(255,128,0);"></div></td><td>arm payout rate: <input type="text" name="arm_rate" id="arm_rate_4" value=".54" disabled></td></tr>
+    </table>
+
+    <div class="div_vertical_spacer"></div>
+
+    <fieldset class="field_group"><legend>Initial Beliefs</legend>
+        <table class="text_table">
+          <tr><td>&alpha; drawn from uniform distribution over</td><td>( <input type="text" class="belief_text" id="alpha_lower_text" value=0>, <input type="text" class="belief_text" id="alpha_upper_text" value=4> ]</td></tr>
+          <tr><td>&beta; drawn from uniform distribution over</td><td>( <input type="text" class="belief_text" id="beta_lower_text" value=0>, <input type="text" class="belief_text" id="beta_upper_text" value=4> ]</td></tr>
+        </table>
+    </fieldset>
+
+    <div class="div_vertical_spacer"></div>
+
+    <table width="100%">
+      <tr><td><div class="div_button_spacer"></div><td><button class="control_button" onclick="reset()">Reset</button></td>
+      <td><button class="control_button" onclick="stepForward()">Step Forward</button></td><td><div class="div_button_spacer"></div></td></tr>
+    </table>
+   </div>
+
+   </div>
+
+
+   <script src="main.js"></script>
+
+
+  </body>
+</html>
