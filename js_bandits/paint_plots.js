@@ -49,31 +49,31 @@ function paintAxesAt(ctx, centerPoint, width, height, pRange) {
 	ctx.fillText((.5*pRange[1][1]).toPrecision(2), origin.x-12, transform({x:0,y:.5*pRange[1][1]}).y+5);
 	ctx.fillText(pRange[1][1].toPrecision(2), origin.x-12, transform({x:0,y:pRange[1][1]}).y+5);
 
-	ctx.beginPath();
-	ctx.strokeStyle = 'rgb(200,200,200)';
+	// Draw the light grey guidelines
+	// ctx.beginPath();
+	// ctx.strokeStyle = 'rgb(200,200,200)';
 
-	var p = transform( {x:0, y: .5*pRange[1][1]} );
-	ctx.moveTo(p.x,p.y);
-	p = transform( {x:1, y: .5*pRange[1][1]} );
-	ctx.lineTo(p.x,p.y);
+	// var p = transform( {x:0, y: .5*pRange[1][1]} );
+	// ctx.moveTo(p.x,p.y);
+	// p = transform( {x:1, y: .5*pRange[1][1]} );
+	// ctx.lineTo(p.x,p.y);
 
-	p = transform( {x:0, y: pRange[1][1]} );
-	ctx.moveTo(p.x,p.y);
-	p = transform( {x:1, y: pRange[1][1]} );
-	ctx.lineTo(p.x,p.y);
+	// p = transform( {x:0, y: pRange[1][1]} );
+	// ctx.moveTo(p.x,p.y);
+	// p = transform( {x:1, y: pRange[1][1]} );
+	// ctx.lineTo(p.x,p.y);
 
-	p = transform( {x:.5, y: 0} );
-	ctx.moveTo(p.x,p.y);
-	p = transform( {x:.5, y: pRange[1][1]} );
-	ctx.lineTo(p.x,p.y);
+	// p = transform( {x:.5, y: 0} );
+	// ctx.moveTo(p.x,p.y);
+	// p = transform( {x:.5, y: pRange[1][1]} );
+	// ctx.lineTo(p.x,p.y);
 
-	p = transform( {x: 1, y: 0} );
-	ctx.moveTo(p.x,p.y);
-	p = transform( {x: 1, y: pRange[1][1]} );
-	ctx.lineTo(p.x,p.y);
+	// p = transform( {x: 1, y: 0} );
+	// ctx.moveTo(p.x,p.y);
+	// p = transform( {x: 1, y: pRange[1][1]} );
+	// ctx.lineTo(p.x,p.y);
 
-
-	ctx.stroke();
+	// ctx.stroke();
 }
 
 
