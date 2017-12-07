@@ -1,0 +1,10 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left, .right {
+  margin: 5%;
+  max-width: 50%;
+}
