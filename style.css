@@ -1,3 +1,7 @@
+html, body {
+	font-family: 'Crimson Text', serif;
+}
+
 .wrapper {
 	display: flex;
 	justify-content: center;
@@ -7,4 +11,22 @@
 .left, .right {
   margin: 5%;
   max-width: 50%;
+}
+
+.left {
+	text-align: center;
+}
+
+.pubdiv {
+	width: 100%;
+	/*max-width: 800px;*/
+	float: left;
+}
+
+.lpub {
+	float: left;
+}
+.rpub {
+	/*text-align:  right;*/
+	/*float: right;*/
 }
