@@ -11,7 +11,6 @@ html, body {
 }
 
 .left, .right {
-  /*margin: 5%;*/
   max-width: 50%;
 }
 
@@ -26,10 +25,8 @@ html, body {
 	float: left;
 }
 
-.lpub {
-	float: left;
+.profile-picture {
+	border-radius: 35%;
 }
-.rpub {
-	/*text-align:  right;*/
-	/*float: right;*/
-}
+
+
