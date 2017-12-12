@@ -35,4 +35,14 @@ html, body {
 	border-radius: 35%;
 }
 
+.mobile_title {
+	display: none;
+	text-align: center;
+}
+
+/* if mobile device max width 480px */
+@media only screen and (max-device-width: 500px) {
+   .mobile_device_480px{display: block;}
+   .left {width: 0px; display: none;}
+}
 
