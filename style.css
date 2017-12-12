@@ -42,7 +42,7 @@ html, body {
 
 /* if mobile device max width 480px */
 @media only screen and (max-device-width: 500px) {
-   .mobile_device_480px{display: block;}
    .left {width: 0px; display: none;}
+   .mobile_title {display: block;}
 }
 
