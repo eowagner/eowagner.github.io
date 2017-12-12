@@ -17,6 +17,7 @@ html, body {
 .left {
 	text-align: center;
 	margin-right: 5%;
+	max-width: 25%;
 }
 
 .right {
