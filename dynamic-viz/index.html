@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<!--
+  Copyright (c) 2016, Elliott Wagner
+-->
+
+<html>
+  <head>
+    <script src="jquery-3.2.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <script src="evo-dynamics.js"></script>
+    <script src="phase-portraits.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+
+  <body>
+
+ 	<div class="div_centered" id="meat_div">
+    
+    <div name="display_div" class="left">
+      Click inside the simplex to see solution trajectories for three different evolutionary dynamics!
+
+
+     <br><br><canvas id="myCanvas" width="700" height="607" style="border:0px solid #000000;"></canvas>
+
+     <br><br>
+     <div class="div_centered"><button class="control_button" onclick="reset()">Clear Phase Portrait</button></div>
+
+     <br><br> Each point in the simplex represents the frequencies of three strategy-types in a large population of agents.
+
+      <br><br> Trajectories within the simplex show how the population composition changes over time.
+    </div>
+
+    <div name="widgets" class="right">
+      <ul>
+      <li><a href="https://www.lms.ac.uk/sites/lms.ac.uk/files/1980%20Population%20dynamics%20from%20game%20theory%20(preprint).pdf">Zeeman's game</a> is interesting because it has an interior attractor that is not an evolutionary stable strategy.  It is also a game in which different evolutionary dynamics have very different basins of attraction.</li><br>
+
+      <li>By clicking inside the simplex you can see solution trajectories for the following three evolutionary dynamics:</li>
+       <ul>
+        <br><li>The <a href="https://doi.org/10.1016/0025-5564(78)90077-9">replicator dynamic</a> is shown in <span class="teal">TEAL</span>.
+          <br><br>  &#7819;&#7522; = x&#7522; [(Ax)&#7522; - x&#183;Ax]
+          <br><br> Each agent picks another agent at random, and then imitates that agent's strategy with probability propotional to the positive difference between that agent's expected payoff and the population's average payoff.
+        </li>
+
+        <br><li>The <a href="http://www.dtic.mil/get-tr-doc/pdf?AD=AD0603877">Brown-von Neumann-Nash dynamic</a> is shown in <span class="orange">ORANGE</span>.
+          <br><br>  &#7819;&#7522; = [(Ax)&#7522; - x&#183;Ax]&#8330; - x&#7522;&#931;&#11388; [(Ax)&#11388; - x&#183;Ax]&#8330;
+          <br><br> Each agent picks a strategy at random and adopts that strategy with probability proportional to it's excess payoff.  A strategy's excess payoff is the positive difference between that strategy's expected payoff and the population average payoff.
+        </li>
+
+        <br><li>The <a href="http://www.jstor.org/stable/25768135">Smith dynamic</a> is shown in <span class="maroon">MAROON</span>.
+          <br><br>  &#7819;&#7522; = &#931;&#11388; x&#11388; [(Ax)&#7522; - (Ax)&#11388;]&#8330; - x&#7522; &#931;&#11388; [(Ax)&#11388; - (Ax)&#7522;]&#8330;
+          <br><br> Each agent picks another agent at random, and then imitates that agent's strategy with probability proportional to the positive difference between her expected payoff and the other agent's expected payoff.
+        </li>
+      </ul><br>
+      <li> Numerical integration is performed using Euler's method with step size equal to .01. 
+      </ul>
+      <div class="div_centered">
+        Payoff Matrix = A = 
+
+        <table>
+          <tr><td><input type="text" class="matrix_input" id="t00" value="0"></td><td><input type="text" class="matrix_input" id="t01" value="6"></td><td><input type="text" class="matrix_input" id="t02" value="-4"></td></tr>
+          <tr><td><input type="text" class="matrix_input" id="t10" value="-3"></td><td><input type="text" class="matrix_input" id="t11" value="0"></td><td><input type="text" class="matrix_input" id="t12" value="5"></td></tr>
+          <tr><td><input type="text" class="matrix_input" id="t20" value="-1"></td><td><input type="text" class="matrix_input" id="t21" value="3"></td><td><input type="text" class="matrix_input" id="t22" value="0"></td></tr>
+        </table>
+      </div>
+      <div class="div_centered">
+        <br><br>
+        <button class="control_button" onclick="payoff_reset()">Set New Payoffs</button>
+        <button class="control_button" onclick="payoff_reset_zeeman()">Reset to Zeeman's Game</button>
+      </div>
+    </div>
+
+  </div>
+   
+  </body>
+</html>

@@ -1,5 +1,7 @@
 html, body {
+	background-color: #F5F5F5;
 	font-family: 'Crimson Text', serif;
+	font-size: 13pt;
 }
 
 .wrapper {
@@ -9,7 +11,7 @@ html, body {
 }
 
 .left, .right {
-  margin: 5%;
+  /*margin: 5%;*/
   max-width: 50%;
 }
 
