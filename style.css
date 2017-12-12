@@ -11,12 +11,17 @@ html, body {
 }
 
 .left, .right {
-  max-width: 50%;
+  /*max-width: 50%;*/
 }
 
 .left {
 	text-align: center;
 	margin-right: 5%;
+}
+
+.right {
+	max-width: 1000px;
+	min-width: 400px;
 }
 
 .pubdiv {
