@@ -1,0 +1,941 @@
+{
+    "nodes": [
+        {
+            "id": "Young Thug",
+            "imgurl": "https://images.genius.com/593aa584c1274e438350701a67c481cb.608x608x1.jpg"
+        },
+        {
+            "id": "Hemlock Ernst",
+            "imgurl": "https://images.genius.com/ff250ea1166a6b442a91b04322132d32.1000x562x1.jpg"
+        },
+        {
+            "id": "Vince Staples",
+            "imgurl": "https://images.genius.com/1b3fe64e4ee13c43ef270a80eee02c8c.675x675x1.jpg"
+        },
+        {
+            "id": "RZA",
+            "imgurl": "https://images.genius.com/1d0509b1400dbdaaec66b1313a2586e1.722x751x1.jpg"
+        },
+        {
+            "id": "Lil Pump",
+            "imgurl": "https://images.genius.com/be16c874d5b65a7cb8979a2ad780fb6c.1000x1000x1.jpg"
+        },
+        {
+            "id": "Ghostface Killah",
+            "imgurl": "https://images.genius.com/227de22e535416c2ec2a6f012f37c9ef.620x400x1.jpg"
+        },
+        {
+            "id": "Sia",
+            "imgurl": "https://images.genius.com/13d70bfd1bbe8b2550c3aed9d4d84dd7.1000x1000x1.jpg"
+        },
+        {
+            "id": "Drake",
+            "imgurl": "https://images.genius.com/67feb7f5e94ea06b0835dc6b8f7fb7c8.434x434x1.jpg"
+        },
+        {
+            "id": "2 Chainz",
+            "imgurl": "https://images.genius.com/f82a00deb2e816cc89005a9839eead69.1000x1000x1.jpg"
+        },
+        {
+            "id": "Kanye West",
+            "imgurl": "https://images.genius.com/2182acf08ba673008132b0278baff86a.803x803x1.jpg"
+        },
+        {
+            "id": "JAY-Z",
+            "imgurl": "https://images.genius.com/09f29277968c4f5750ad37e0c6007af6.700x509x1.jpg"
+        },
+        {
+            "id": "Killer Mike",
+            "imgurl": "https://images.genius.com/86239d3de00e4660583da44a02ffa821.820x546x1.jpg"
+        },
+        {
+            "id": "GZA",
+            "imgurl": "https://images.genius.com/ebac6d6aa148f75d71fa0389e615601b.400x400x1.jpg"
+        },
+        {
+            "id": "Lauryn Hill",
+            "imgurl": "https://images.genius.com/4fff53f85a4f6704ecb471ac0c617cfe.446x446x1.jpg"
+        },
+        {
+            "id": "Danny Brown",
+            "imgurl": "https://images.genius.com/a90232661a504a9c5c4f0ecdf2aed6f3.500x667x16.gif"
+        },
+        {
+            "id": "Bon Iver",
+            "imgurl": "https://images.genius.com/3e07a86f931a6a883446c9a2e83dc6f7.1000x1000x1.jpg"
+        },
+        {
+            "id": "Kodak Black",
+            "imgurl": "https://images.genius.com/d287fd6675f888f22feeec4936a9b2bd.455x455x1.jpg"
+        },
+        {
+            "id": "The Game",
+            "imgurl": "https://images.genius.com/c092f1446c5add56d99942f3f0e33f13.421x421x1.jpg"
+        },
+        {
+            "id": "Inspectah Deck",
+            "imgurl": "https://images.genius.com/ec81fe76ab1184b20e5472621f8a9698.497x394x1.jpg"
+        },
+        {
+            "id": "Lil Wayne",
+            "imgurl": "https://images.genius.com/0422c48226bf0be25b633874a6f079a6.776x776x1.jpg"
+        },
+        {
+            "id": "Open Mike Eagle",
+            "imgurl": "https://s3.amazonaws.com/rapgenius/6a00d8341c630a53ef015437a1b2e9970c-600wi.jpg"
+        },
+        {
+            "id": "Raekwon",
+            "imgurl": "https://images.genius.com/32fabf2b8b2eb256a0e1d6a14a76852f.500x500x1.jpg"
+        },
+        {
+            "id": "El-P",
+            "imgurl": "https://images.genius.com/7b4d16e61a07d0ffa7ef424aabc05d50.1000x608x1.jpg"
+        },
+        {
+            "id": "Joanna Newsom",
+            "imgurl": "https://images.genius.com/cc4b47410dffb7147249aff8b8cde5de.365x365x1.png"
+        },
+        {
+            "id": "The Muppets",
+            "imgurl": "https://images.genius.com/93de756dd2915c1de17adf7bc86e98ff.1000x488x1.jpg"
+        },
+        {
+            "id": "LL Cool J",
+            "imgurl": "https://images.genius.com/9e00cf56336ec8915e2fa3b2b2e7502d.377x377x1.jpg"
+        },
+        {
+            "id": "U2",
+            "imgurl": "https://images.genius.com/0565db2dbe447e1e79c41d785d3e6b26.819x819x1.jpg"
+        },
+        {
+            "id": "T.I.",
+            "imgurl": "https://images.genius.com/81661c2788b1036304ef0aaf347fdbf6.491x491x1.png"
+        },
+        {
+            "id": "UGK",
+            "imgurl": "https://images.genius.com/0f8c393f9b7bce1a76025bcb20e337df.300x300x1.jpg"
+        },
+        {
+            "id": "MF DOOM",
+            "imgurl": "https://images.genius.com/263743633b6e58854e753b25dca6beab.430x430x1.jpg"
+        },
+        {
+            "id": "Frank Ocean",
+            "imgurl": "https://images.genius.com/78a9a1403027e5778b473c71204b1ac0.728x728x1.jpg"
+        },
+        {
+            "id": "Quasimoto",
+            "imgurl": "https://images.genius.com/b1d58338e6dd8f0b601c78b048563338.840x840x1.jpg"
+        },
+        {
+            "id": "Run-D.M.C.",
+            "imgurl": "https://images.genius.com/63df3e6293cfcc8c85e004eae35f81f2.580x580x1.jpg"
+        },
+        {
+            "id": "Eminem",
+            "imgurl": "https://images.genius.com/b379811c1415017b9f3e3a71b9d26060.400x400x1.jpg"
+        },
+        {
+            "id": "Fat Joe",
+            "imgurl": "https://images.genius.com/ae5522a223bd9fbf006adc7c421975b5.300x300x1.jpg"
+        },
+        {
+            "id": "Ol' Dirty Bastard",
+            "imgurl": "https://images.genius.com/d7e323c108da42ed17c2a306b8658e1d.500x335x1.jpg"
+        },
+        {
+            "id": "Queen",
+            "imgurl": "https://images.genius.com/781f51bb7041e6b7eeec820fbc413e75.1000x750x1.jpg"
+        },
+        {
+            "id": "Kendrick Lamar",
+            "imgurl": "https://images.genius.com/eb0ad077e281e41ccd28b400e38061d2.1000x1000x1.jpg"
+        },
+        {
+            "id": "Michael Jackson",
+            "imgurl": "https://images.genius.com/3d84224f60e179b0f831152839dd3597.1000x1000x1.jpg"
+        },
+        {
+            "id": "Isaiah Rashad",
+            "imgurl": "https://images.genius.com/f3bf7e237d3161e1014a53c4a379c197.400x225x26.gif"
+        },
+        {
+            "id": "OutKast",
+            "imgurl": "https://images.genius.com/ef006cf48ebfb4923b23d319fdeb1315.1000x1000x1.jpg"
+        },
+        {
+            "id": "Three 6 Mafia",
+            "imgurl": "https://images.genius.com/82cfcea8fbe556ac3cb9e709e2342312.704x704x1.jpg"
+        },
+        {
+            "id": "Kurtis Blow",
+            "imgurl": "https://images.genius.com/fa2578a108236f73329f9d9991f2d571.500x500x1.jpg"
+        },
+        {
+            "id": "\u200bmilo",
+            "imgurl": "https://images.genius.com/f0397496203bb98580c74b465b70f8e7.475x300x1.jpg"
+        },
+        {
+            "id": "Big Daddy Kane",
+            "imgurl": "https://s3.amazonaws.com/rapgenius/1321503841_BDK%20fade.jpg"
+        },
+        {
+            "id": "Erykah Badu",
+            "imgurl": "https://images.genius.com/40cb5e48ad731b9a79cd0dca18f145db.925x925x1.jpg"
+        },
+        {
+            "id": "U-God",
+            "imgurl": "https://images.genius.com/89e8326074288a4d2e711d04f1aaf2ce.326x500x1.jpg"
+        },
+        {
+            "id": "Gucci Mane",
+            "imgurl": "https://images.genius.com/6f0a4980c8ef838036229e1d4dcd036c.408x408x1.jpg"
+        },
+        {
+            "id": "Project Pat",
+            "imgurl": "https://images.genius.com/fc6d3f2958d9aafa5fcb389faece1ff0.350x350x1.jpg"
+        },
+        {
+            "id": "The Roots",
+            "imgurl": "https://images.genius.com/b2ff781bd70916679375b5f26e8fddca.554x380x1.jpg"
+        }
+    ],
+    "links": [
+        {
+            "source": "Young Thug",
+            "target": "Gucci Mane",
+            "song_title": "Again by Young Thug (Ft. Gucci Mane)"
+        },
+        {
+            "source": "Young Thug",
+            "target": "Kanye West",
+            "song_title": "Highlights by Kanye West (Ft. Young Thug)"
+        },
+        {
+            "source": "Young Thug",
+            "target": "T.I.",
+            "song_title": "Can't Tell by Young Thug (Ft. Boosie Badazz & T.I.)"
+        },
+        {
+            "source": "Young Thug",
+            "target": "Drake",
+            "song_title": "Ice Melts by Drake (Ft. Young Thug)"
+        },
+        {
+            "source": "Young Thug",
+            "target": "Frank Ocean",
+            "song_title": "Slide on Me (Remix) by Frank Ocean (Ft. Young Thug)"
+        },
+        {
+            "source": "Young Thug",
+            "target": "2 Chainz",
+            "song_title": "Dresser (Lil Boy) by 2 Chainz (Ft. Young Thug)"
+        },
+        {
+            "source": "Young Thug",
+            "target": "Lil Wayne",
+            "song_title": "Young Cash by Young Thug (Ft. Lil Wayne)"
+        },
+        {
+            "source": "Young Thug",
+            "target": "Kodak Black",
+            "song_title": "Top Off Benz by Kodak Black (Ft. Young Thug)"
+        },
+        {
+            "source": "Hemlock Ernst",
+            "target": "\u200bmilo",
+            "song_title": "Souvenir by \u200bmilo (Ft. Hemlock Ernst)"
+        },
+        {
+            "source": "Hemlock Ernst",
+            "target": "Open Mike Eagle",
+            "song_title": "Protectors of the Heat by Open Mike Eagle (Ft. Hemlock Ernst)"
+        },
+        {
+            "source": "Vince Staples",
+            "target": "Ghostface Killah",
+            "song_title": "Get the Money by Ghostface Killah (Ft. Vince Staples)"
+        },
+        {
+            "source": "Vince Staples",
+            "target": "Kendrick Lamar",
+            "song_title": "Yeah Right by Vince Staples (Ft. Kendrick Lamar & KU\u010cKA)"
+        },
+        {
+            "source": "RZA",
+            "target": "Ghostface Killah",
+            "song_title": "Bobby Did It (Spanish Fly) by RZA (Ft. Ghostface Killah, Islord, Jamie Sommers, Ndira & Timbo King)"
+        },
+        {
+            "source": "RZA",
+            "target": "Ol' Dirty Bastard",
+            "song_title": "Black Widow Pt. 2 by RZA (Ft. Ol' Dirty Bastard)"
+        },
+        {
+            "source": "RZA",
+            "target": "MF DOOM",
+            "song_title": "Biochemical Equation by RZA (Ft. MF DOOM)"
+        },
+        {
+            "source": "RZA",
+            "target": "Kanye West",
+            "song_title": "So Appalled by Kanye West (Ft. CyHi The Prynce, JAY-Z, Pusha T, RZA & Swizz Beatz)"
+        },
+        {
+            "source": "RZA",
+            "target": "Raekwon",
+            "song_title": "Who's the Champion by RZA (Ft. Ghostface Killah & Raekwon)"
+        },
+        {
+            "source": "RZA",
+            "target": "U-God",
+            "song_title": "Domestic Violence by RZA (Ft. Jamie Sommers, Ms. Roxy, Tiffany & U-God)"
+        },
+        {
+            "source": "RZA",
+            "target": "Fat Joe",
+            "song_title": "La Rhumba (Remix) by RZA (Ft. Fat Joe, Method Man & Ndira)"
+        },
+        {
+            "source": "RZA",
+            "target": "GZA",
+            "song_title": "Do U by RZA (Ft. GZA & Prodigal Sunn)"
+        },
+        {
+            "source": "RZA",
+            "target": "Inspectah Deck",
+            "song_title": "U Can't Stop Me Now by RZA (Ft. Inspectah Deck)"
+        },
+        {
+            "source": "RZA",
+            "target": "Kendrick Lamar",
+            "song_title": "Ronald Reagan Era (His Evils) by Kendrick Lamar (Ft. RZA)"
+        },
+        {
+            "source": "Lil Pump",
+            "target": "Gucci Mane",
+            "song_title": "Youngest Flexer by Lil Pump (Ft. Gucci Mane)"
+        },
+        {
+            "source": "Lil Pump",
+            "target": "2 Chainz",
+            "song_title": "Iced Out by Lil Pump (Ft. 2 Chainz)"
+        },
+        {
+            "source": "Ghostface Killah",
+            "target": "Lil Wayne",
+            "song_title": "Run (Remix) by Ghostface Killah (Ft. Freeway, Jadakiss, Lil Wayne & Raekwon)"
+        },
+        {
+            "source": "Ghostface Killah",
+            "target": "U-God",
+            "song_title": "Black Jesus by Ghostface Killah (Ft. Popa Wu, Raekwon & U-God)"
+        },
+        {
+            "source": "Ghostface Killah",
+            "target": "The Game",
+            "song_title": "Drama by Ghostface Killah (Ft. The Game & Joell Ortiz)"
+        },
+        {
+            "source": "Ghostface Killah",
+            "target": "MF DOOM",
+            "song_title": "Chinatown Wars by Ghostface Killah (Ft. MF DOOM)"
+        },
+        {
+            "source": "Ghostface Killah",
+            "target": "Kanye West",
+            "song_title": "Back Like That (Remix) by Ghostface Killah (Ft. Kanye West & Ne-Yo)"
+        },
+        {
+            "source": "Ghostface Killah",
+            "target": "Raekwon",
+            "song_title": "260 by Ghostface Killah (Ft. Raekwon)"
+        },
+        {
+            "source": "Ghostface Killah",
+            "target": "GZA",
+            "song_title": "Purified Thoughts by Ghostface Killah (Ft. GZA & Killah Priest)"
+        },
+        {
+            "source": "Ghostface Killah",
+            "target": "Inspectah Deck",
+            "song_title": "An Unexpected Call (Brown Tape) by Ghostface Killah (Ft. Inspectah Deck)"
+        },
+        {
+            "source": "Ghostface Killah",
+            "target": "Ol' Dirty Bastard",
+            "song_title": "Back in the Air by Ol' Dirty Bastard (Ft. Ghostface Killah)"
+        },
+        {
+            "source": "Sia",
+            "target": "Eminem",
+            "song_title": "Beautiful Pain by Eminem (Ft. Sia)"
+        },
+        {
+            "source": "Sia",
+            "target": "Kanye West",
+            "song_title": "Wolves by Kanye West (Ft. Sia & Vic Mensa)"
+        },
+        {
+            "source": "Sia",
+            "target": "Kendrick Lamar",
+            "song_title": "The Greatest by Sia (Ft. Kendrick Lamar)"
+        },
+        {
+            "source": "Drake",
+            "target": "JAY-Z",
+            "song_title": "Light Up by Drake (Ft. JAY-Z)"
+        },
+        {
+            "source": "Drake",
+            "target": "Lil Wayne",
+            "song_title": "All Night Long (Miss Me Demo) by Drake (Ft. Bun B & Lil Wayne)"
+        },
+        {
+            "source": "Drake",
+            "target": "Gucci Mane",
+            "song_title": "Back on Road by Gucci Mane (Ft. Drake)"
+        },
+        {
+            "source": "Drake",
+            "target": "The Game",
+            "song_title": "100 by The Game (Ft. Drake)"
+        },
+        {
+            "source": "Drake",
+            "target": "Kanye West",
+            "song_title": "Forever by Drake (Ft. Eminem, Kanye West & Lil Wayne)"
+        },
+        {
+            "source": "Drake",
+            "target": "T.I.",
+            "song_title": "Fancy by Drake (Ft. Swizz Beatz & T.I.)"
+        },
+        {
+            "source": "Drake",
+            "target": "Kendrick Lamar",
+            "song_title": "Buried Alive (Interlude) by Drake (Ft. Kendrick Lamar)"
+        },
+        {
+            "source": "Drake",
+            "target": "Eminem",
+            "song_title": "Forever by Drake (Ft. Eminem, Kanye West & Lil Wayne)"
+        },
+        {
+            "source": "Drake",
+            "target": "2 Chainz",
+            "song_title": "All Me by Drake (Ft. 2 Chainz & Big Sean)"
+        },
+        {
+            "source": "2 Chainz",
+            "target": "Lil Wayne",
+            "song_title": "Back On The Bullshyt by 2 Chainz (Ft. Lil Wayne)"
+        },
+        {
+            "source": "2 Chainz",
+            "target": "Gucci Mane",
+            "song_title": "Good Drank by 2 Chainz (Ft. Gucci Mane & Quavo)"
+        },
+        {
+            "source": "2 Chainz",
+            "target": "The Game",
+            "song_title": "Ali Bomaye by The Game (Ft. 2 Chainz & Rick Ross)"
+        },
+        {
+            "source": "2 Chainz",
+            "target": "Eminem",
+            "song_title": "Chloraseptic (Remix) by Eminem (Ft. 2 Chainz & PHresher)"
+        },
+        {
+            "source": "2 Chainz",
+            "target": "Kanye West",
+            "song_title": "Birthday Song by 2 Chainz (Ft. Kanye West)"
+        },
+        {
+            "source": "2 Chainz",
+            "target": "Raekwon",
+            "song_title": "Letter To Da Rap Game by 2 Chainz (Ft. Dolla Boy & Raekwon)"
+        },
+        {
+            "source": "2 Chainz",
+            "target": "T.I.",
+            "song_title": "Spend It (Remix) by 2 Chainz (Ft. T.I.)"
+        },
+        {
+            "source": "2 Chainz",
+            "target": "Frank Ocean",
+            "song_title": "Rolls Royce Bitch Freestyle by Frank Ocean (Ft. 2 Chainz)"
+        },
+        {
+            "source": "Kanye West",
+            "target": "JAY-Z",
+            "song_title": "Clique by Kanye West (Ft. Big Sean & JAY-Z)"
+        },
+        {
+            "source": "Kanye West",
+            "target": "Lil Wayne",
+            "song_title": "Barry Bonds by Kanye West (Ft. Lil Wayne)"
+        },
+        {
+            "source": "Kanye West",
+            "target": "Gucci Mane",
+            "song_title": "Champions by Kanye West (Ft. 2 Chainz, Big Sean, Desiigner, Gucci Mane, Quavo, Travis Scott & Yo Gotti)"
+        },
+        {
+            "source": "Kanye West",
+            "target": "The Game",
+            "song_title": "Crack Music by Kanye West (Ft. The Game)"
+        },
+        {
+            "source": "Kanye West",
+            "target": "Three 6 Mafia",
+            "song_title": "Side 2 Side by Three 6 Mafia (Ft. Kanye West & Project Pat)"
+        },
+        {
+            "source": "Kanye West",
+            "target": "Ol' Dirty Bastard",
+            "song_title": "Keep the Receipt by Kanye West (Ft. Ol' Dirty Bastard)"
+        },
+        {
+            "source": "Kanye West",
+            "target": "Raekwon",
+            "song_title": "Gorgeous by Kanye West (Ft. Kid Cudi & Raekwon)"
+        },
+        {
+            "source": "Kanye West",
+            "target": "Bon Iver",
+            "song_title": "Lost in the World by Kanye West (Ft. Bon Iver)"
+        },
+        {
+            "source": "Kanye West",
+            "target": "T.I.",
+            "song_title": "Drive Slow (Remix) by Kanye West (Ft. GLC, Paul Wall & T.I.)"
+        },
+        {
+            "source": "Kanye West",
+            "target": "Kendrick Lamar",
+            "song_title": "No More Parties in LA by Kanye West (Ft. Kendrick Lamar)"
+        },
+        {
+            "source": "Kanye West",
+            "target": "Lauryn Hill",
+            "song_title": "All Falls Down (Original) by Kanye West (Ft. Lauryn Hill)"
+        },
+        {
+            "source": "Kanye West",
+            "target": "Frank Ocean",
+            "song_title": "Frank's Track by Kanye West (Ft. Frank Ocean)"
+        },
+        {
+            "source": "Kanye West",
+            "target": "Michael Jackson",
+            "song_title": "Billie Jean 2008 by Michael Jackson (Ft. Kanye West)"
+        },
+        {
+            "source": "JAY-Z",
+            "target": "Lil Wayne",
+            "song_title": "Hello Brooklyn 2.0 by JAY-Z (Ft. Lil Wayne)"
+        },
+        {
+            "source": "JAY-Z",
+            "target": "Killer Mike",
+            "song_title": "Poppin' Tags by JAY-Z (Ft. Big Boi, Killer Mike & Twista)"
+        },
+        {
+            "source": "JAY-Z",
+            "target": "Eminem",
+            "song_title": "Best Rapper Alive Mashup by JAY-Z (Ft. Eminem)"
+        },
+        {
+            "source": "JAY-Z",
+            "target": "The Roots",
+            "song_title": "Jigga That N**** (MTV Unplugged) by JAY-Z (Ft. The Roots)"
+        },
+        {
+            "source": "JAY-Z",
+            "target": "UGK",
+            "song_title": "Big Pimpin' by JAY-Z (Ft. UGK)"
+        },
+        {
+            "source": "JAY-Z",
+            "target": "Frank Ocean",
+            "song_title": "Caught Their Eyes by JAY-Z (Ft. Frank Ocean)"
+        },
+        {
+            "source": "JAY-Z",
+            "target": "T.I.",
+            "song_title": "Watch What You Say To Me by T.I. (Ft. JAY-Z)"
+        },
+        {
+            "source": "JAY-Z",
+            "target": "OutKast",
+            "song_title": "Flip Flop Rock by OutKast (Ft. JAY-Z & Killer Mike)"
+        },
+        {
+            "source": "JAY-Z",
+            "target": "Big Daddy Kane",
+            "song_title": "Show and Prove by Big Daddy Kane (Ft. JAY-Z, Ol' Dirty Bastard, Sauce Money, Scoob Lover & Shyheim)"
+        },
+        {
+            "source": "JAY-Z",
+            "target": "Michael Jackson",
+            "song_title": "Twelve O'Clock by Michael Jackson (Ft. JAY-Z)"
+        },
+        {
+            "source": "JAY-Z",
+            "target": "Kendrick Lamar",
+            "song_title": "Bitch, Don't Kill My Vibe (Remix) by Kendrick Lamar (Ft. JAY-Z)"
+        },
+        {
+            "source": "Killer Mike",
+            "target": "Gucci Mane",
+            "song_title": "Animal by Killer Mike (Ft. Gucci Mane)"
+        },
+        {
+            "source": "Killer Mike",
+            "target": "T.I.",
+            "song_title": "Big Beast by Killer Mike (Ft. Bun B, T.I. & Trouble)"
+        },
+        {
+            "source": "Killer Mike",
+            "target": "OutKast",
+            "song_title": "Akshon (Yeah!) by Killer Mike (Ft. OutKast)"
+        },
+        {
+            "source": "Killer Mike",
+            "target": "Lil Wayne",
+            "song_title": "Kryptonite (Remix) by Killer Mike (Ft. Bubba Sparxxx, Busta Rhymes & Lil Wayne)"
+        },
+        {
+            "source": "Killer Mike",
+            "target": "The Game",
+            "song_title": "Still My Nigga by Killer Mike (Ft. The Game & Ludacris)"
+        },
+        {
+            "source": "Killer Mike",
+            "target": "El-P",
+            "song_title": "Butane (Champion's Anthem) by Killer Mike (Ft. El-P)"
+        },
+        {
+            "source": "GZA",
+            "target": "Ol' Dirty Bastard",
+            "song_title": "1991 Freestyle by GZA (Ft. Ol' Dirty Bastard)"
+        },
+        {
+            "source": "GZA",
+            "target": "Raekwon",
+            "song_title": "Destruction of a Guard (Remix) by GZA (Ft. Raekwon & Ras Kass)"
+        },
+        {
+            "source": "GZA",
+            "target": "Big Daddy Kane",
+            "song_title": "Cameo Afro by Big Daddy Kane (Ft. GZA & Suga Bang Bang)"
+        },
+        {
+            "source": "GZA",
+            "target": "U-God",
+            "song_title": "Investigative Reports by GZA (Ft. Ghostface Killah, Raekwon & U-God)"
+        },
+        {
+            "source": "GZA",
+            "target": "Inspectah Deck",
+            "song_title": "Breaker, Breaker (Remix) by GZA (Ft. Inspectah Deck & Masta Killa)"
+        },
+        {
+            "source": "Danny Brown",
+            "target": "Eminem",
+            "song_title": "Detroit vs. Everybody by Eminem (Ft. Big Sean, Danny Brown, DeJ Loaf, Royce da 5\u20199\u201d & Trick Trick)"
+        },
+        {
+            "source": "Danny Brown",
+            "target": "El-P",
+            "song_title": "Oh Hail No by El-P (Ft. Danny Brown & Mr. Muthafuckin eXquire)"
+        },
+        {
+            "source": "Danny Brown",
+            "target": "Kendrick Lamar",
+            "song_title": "Really Doe by Danny Brown (Ft. Ab-Soul, Earl Sweatshirt & Kendrick Lamar)"
+        },
+        {
+            "source": "Danny Brown",
+            "target": "Open Mike Eagle",
+            "song_title": "Cobra Commander by Open Mike Eagle (Ft. Danny Brown)"
+        },
+        {
+            "source": "Kodak Black",
+            "target": "Lil Wayne",
+            "song_title": "Codeine Dreaming by Kodak Black (Ft. Lil Wayne)"
+        },
+        {
+            "source": "Kodak Black",
+            "target": "Gucci Mane",
+            "song_title": "Vibin In This Bih by Kodak Black (Ft. Gucci Mane)"
+        },
+        {
+            "source": "The Game",
+            "target": "Lil Wayne",
+            "song_title": "All That (Lady) by The Game (Ft. Big Sean, Fabolous, Jeremih & Lil Wayne)"
+        },
+        {
+            "source": "The Game",
+            "target": "Gucci Mane",
+            "song_title": "Krazy by The Game (Ft. Gucci Mane & Timbaland)"
+        },
+        {
+            "source": "The Game",
+            "target": "Eminem",
+            "song_title": "We Ain't by The Game (Ft. Eminem)"
+        },
+        {
+            "source": "The Game",
+            "target": "Raekwon",
+            "song_title": "Bulletproof Diaries by The Game (Ft. Raekwon)"
+        },
+        {
+            "source": "The Game",
+            "target": "Fat Joe",
+            "song_title": "Greystone by The Game (Ft. Fat Joe, Sam Hook & Young Chris)"
+        },
+        {
+            "source": "The Game",
+            "target": "T.I.",
+            "song_title": "Blood Moon: Year Of The Wolf Album [Art + Tracklist] by The Game (Ft. 2 Chainz, AV, Bobby Shmurda, Chris Brown, Eric Bellinger, Freddie Gibbs, French Montana, Jeezy, Kevin Gates, Lil Wayne, Problem, Skeme, Soulja Boy, T.I., Too $hort, Ty Dolla $ign, Tyga & Yo Gotti)"
+        },
+        {
+            "source": "The Game",
+            "target": "Big Daddy Kane",
+            "song_title": "History by The Game (Ft. Big Daddy Kane, Doug E. Fresh & KRS-One)"
+        },
+        {
+            "source": "The Game",
+            "target": "Kendrick Lamar",
+            "song_title": "Cali Niggaz by The Game (Ft. Eastwood, Jay Rock, Kendrick Lamar, Quincey White, Topic & Ya Boy)"
+        },
+        {
+            "source": "Inspectah Deck",
+            "target": "Raekwon",
+            "song_title": "The Big Game by Inspectah Deck (Ft. AC & Raekwon)"
+        },
+        {
+            "source": "Inspectah Deck",
+            "target": "U-God",
+            "song_title": "Handle That by Inspectah Deck (Ft. Hugh Hef & U-God)"
+        },
+        {
+            "source": "Lil Wayne",
+            "target": "Gucci Mane",
+            "song_title": "We Be Steady Mobbin' by Lil Wayne (Ft. Gucci Mane)"
+        },
+        {
+            "source": "Lil Wayne",
+            "target": "Eminem",
+            "song_title": "Drop the World by Lil Wayne (Ft. Eminem)"
+        },
+        {
+            "source": "Lil Wayne",
+            "target": "Fat Joe",
+            "song_title": "About All That by Lil Wayne (Ft. Birdman & Fat Joe)"
+        },
+        {
+            "source": "Lil Wayne",
+            "target": "T.I.",
+            "song_title": "Feds Watching by Lil Wayne (Ft. 2 Chainz, Pharrell Williams & T.I.)"
+        },
+        {
+            "source": "Lil Wayne",
+            "target": "Kendrick Lamar",
+            "song_title": "Mona Lisa* by Lil Wayne (Ft. Kendrick Lamar)"
+        },
+        {
+            "source": "Lil Wayne",
+            "target": "Raekwon",
+            "song_title": "My Corner by Raekwon (Ft. Lil Wayne)"
+        },
+        {
+            "source": "Lil Wayne",
+            "target": "OutKast",
+            "song_title": "Hollywood Divorce by OutKast (Ft. Lil Wayne & Snoop Dogg)"
+        },
+        {
+            "source": "Lil Wayne",
+            "target": "Erykah Badu",
+            "song_title": "Jump Up In the Air (Stay There) by Erykah Badu (Ft. Bilal & Lil Wayne)"
+        },
+        {
+            "source": "Open Mike Eagle",
+            "target": "\u200bmilo",
+            "song_title": "Trickeration by Open Mike Eagle (Ft. MC Paul Barman & \u200bmilo)"
+        },
+        {
+            "source": "Raekwon",
+            "target": "Ol' Dirty Bastard",
+            "song_title": "Intoxicated by Ol' Dirty Bastard (Ft. Macy Gray, Method Man & Raekwon)"
+        },
+        {
+            "source": "Raekwon",
+            "target": "MF DOOM",
+            "song_title": "Yessir! by MF DOOM (Ft. Raekwon)"
+        },
+        {
+            "source": "Raekwon",
+            "target": "U-God",
+            "song_title": "Knuckleheadz by Raekwon (Ft. Ghostface Killah & U-God)"
+        },
+        {
+            "source": "Raekwon",
+            "target": "Fat Joe",
+            "song_title": "Clientele Kidd by Raekwon (Ft. Fat Joe, Ghostface Killah & Polite)"
+        },
+        {
+            "source": "Raekwon",
+            "target": "OutKast",
+            "song_title": "Skew It On The Bar-B by OutKast (Ft. Raekwon)"
+        },
+        {
+            "source": "Joanna Newsom",
+            "target": "The Roots",
+            "song_title": "Right On by The Roots (Ft. Joanna Newsom & STS)"
+        },
+        {
+            "source": "Joanna Newsom",
+            "target": "The Muppets",
+            "song_title": "The Muppet Show Theme by The Muppets (Ft. Joanna Newsom)"
+        },
+        {
+            "source": "The Muppets",
+            "target": "Queen",
+            "song_title": "Bohemian Rhapsody by The Muppets (Ft. Queen)"
+        },
+        {
+            "source": "LL Cool J",
+            "target": "Michael Jackson",
+            "song_title": "Serious Effect by Michael Jackson (Ft. LL Cool J)"
+        },
+        {
+            "source": "LL Cool J",
+            "target": "Fat Joe",
+            "song_title": "Come and Party With Me by LL Cool J (Ft. Fat Joe & Sheek Louch)"
+        },
+        {
+            "source": "U2",
+            "target": "Kendrick Lamar",
+            "song_title": "XXX. by Kendrick Lamar (Ft. U2)"
+        },
+        {
+            "source": "T.I.",
+            "target": "Gucci Mane",
+            "song_title": "Plain Jane (Remix) by Gucci Mane (Ft. Rocko & T.I.)"
+        },
+        {
+            "source": "T.I.",
+            "target": "Eminem",
+            "song_title": "That's All She Wrote by T.I. (Ft. Eminem)"
+        },
+        {
+            "source": "T.I.",
+            "target": "Fat Joe",
+            "song_title": "Make It Rain (Remix) by Fat Joe (Ft. Ace Mack, Birdman, Lil Wayne, Rick Ross, R. Kelly & T.I.)"
+        },
+        {
+            "source": "T.I.",
+            "target": "Three 6 Mafia",
+            "song_title": "24's (Hypnotize Remix) by T.I. (Ft. Big Kuntry King & Three 6 Mafia)"
+        },
+        {
+            "source": "T.I.",
+            "target": "UGK",
+            "song_title": "Front Back by T.I. (Ft. UGK)"
+        },
+        {
+            "source": "UGK",
+            "target": "Three 6 Mafia",
+            "song_title": "Int'l Players Anthem (I Choose You) (Remix) by UGK (Ft. Three 6 Mafia)"
+        },
+        {
+            "source": "UGK",
+            "target": "OutKast",
+            "song_title": "International Player's Anthem (I Choose You) by UGK (Ft. OutKast)"
+        },
+        {
+            "source": "UGK",
+            "target": "Big Daddy Kane",
+            "song_title": "Next Up by UGK (Ft. Big Daddy Kane & Kool G. Rap)"
+        },
+        {
+            "source": "MF DOOM",
+            "target": "Erykah Badu",
+            "song_title": "Apple Tree (MF Doom Special Blend) by MF DOOM (Ft. Erykah Badu)"
+        },
+        {
+            "source": "MF DOOM",
+            "target": "Quasimoto",
+            "song_title": "Closer by Quasimoto (Ft. MF DOOM)"
+        },
+        {
+            "source": "Run-D.M.C.",
+            "target": "Kurtis Blow",
+            "song_title": "8 Million Stories by Kurtis Blow (Ft. Run-D.M.C.)"
+        },
+        {
+            "source": "Run-D.M.C.",
+            "target": "Fat Joe",
+            "song_title": "Ay Papi by Run-D.M.C. (Ft. Bo Skaggs Nitty & Fat Joe)"
+        },
+        {
+            "source": "Eminem",
+            "target": "Kendrick Lamar",
+            "song_title": "Love Game by Eminem (Ft. Kendrick Lamar)"
+        },
+        {
+            "source": "Eminem",
+            "target": "Fat Joe",
+            "song_title": "Lean Back (Remix) by Fat Joe (Ft. Eminem, Lil Jon & Ma$e)"
+        },
+        {
+            "source": "Ol' Dirty Bastard",
+            "target": "Big Daddy Kane",
+            "song_title": "Show and Prove by Big Daddy Kane (Ft. JAY-Z, Ol' Dirty Bastard, Sauce Money, Scoob Lover & Shyheim)"
+        },
+        {
+            "source": "Queen",
+            "target": "Michael Jackson",
+            "song_title": "There Must Be More To Life Than This (William Orbit Mix) by Queen (Ft. Michael Jackson)"
+        },
+        {
+            "source": "Kendrick Lamar",
+            "target": "Gucci Mane",
+            "song_title": "Vanity Slaves Part II by Kendrick Lamar (Ft. Gucci Mane)"
+        },
+        {
+            "source": "Kendrick Lamar",
+            "target": "Isaiah Rashad",
+            "song_title": "Wat's Wrong by Isaiah Rashad (Ft. Kendrick Lamar & Zacari)"
+        },
+        {
+            "source": "OutKast",
+            "target": "Erykah Badu",
+            "song_title": "Humble Mumble by OutKast (Ft. Erykah Badu)"
+        },
+        {
+            "source": "Three 6 Mafia",
+            "target": "Gucci Mane",
+            "song_title": "Candy Man by Gucci Mane (Ft. Three 6 Mafia)"
+        },
+        {
+            "source": "Three 6 Mafia",
+            "target": "Project Pat",
+            "song_title": "Dirty Bitch by Three 6 Mafia (Ft. Project Pat)"
+        },
+        {
+            "source": "Erykah Badu",
+            "target": "The Roots",
+            "song_title": "You Got Me by The Roots (Ft. Dice Raw, Erykah Badu & Eve)"
+        },
+        {
+            "source": "Gucci Mane",
+            "target": "Project Pat",
+            "song_title": "I Got It On Me by Gucci Mane (Ft. DJ Scream & Project Pat)"
+        }
+    ]
+}
