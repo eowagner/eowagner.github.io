@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Rap Network</title>
+    <script src="d3.min.js" charset="utf-8"></script>
+
+    <style>
+      div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 200px;
+        /*height: 50px;*/
+        padding: 2px;
+        font: 16px sans-serif;
+        background: lightsteelblue;
+        border: 0px;
+        border-radius: 8px;
+        pointer-events: none;
+      }
+      .yearLabel {
+        font: 16px sans-serif;
+        font-weight: bold;
+        font-family: Consolas, courier;
+      }
+      .rankLabel {
+        font: 16px sans-serif;
+        font-weight: bold;
+        font-family: Consolas, courier;
+        /*transform: rotate(-1deg);*/
+      }
+    </style>
+</head>
+    
+
+<body>
+    <!-- container for force layout visualisation  -->
+    <svg width="800" height="2500">
+    </svg>
+
+<script>
+var svg = d3.select("svg"), width = +svg.attr("width"), height = +svg.attr("height");
+
+d3.json("rapranks.json", function(error, rankdata) {
+  if (error) throw error;
+
+  var years = Object.keys(rankdata);
+  var ranks_to_show = rankdata[years[0]].length;
+  // var ranks_to_show = 5;
+
+  var rank_text = ['Most central rapper', 'Second most central rapper', 'Third most central rapper', 'Fourth most central rapper', 'Fifth most central rapper', 'Sixth most central rapper', 'Seventh most central rapper']
+
+  var unique_names = [];
+  for (var i=0; i<years.length; i++) {
+    ydata = rankdata[years[i]];
+
+    for (var j=0; j<ydata.length; j++) {
+      if (!unique_names.includes(ydata[j].name)) 
+        unique_names.push(ydata[j].name);
+    }
+  }
+
+  var gap = 5;
+  var buffer = {'x': 65, 'y': 200};
+  var grid_size_raw = {'width': (width-buffer.x)/ranks_to_show-gap*2, 'height': (height-buffer.y)/years.length - gap*2}
+  var grid_size = {'width': Math.min(grid_size_raw.width, grid_size_raw.height), 'height': Math.min(grid_size_raw.width, grid_size_raw.height)}
+
+  function top_left(yearindex, rank) {
+    return {'x': buffer.x + rank*grid_size.width + (rank+1)*gap, 'y': buffer.y + yearindex*grid_size.height + (yearindex+1)*gap };
+  }
+
+  var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
+  // Put the years down the y-axis
+  var yearlabels = svg.append("g")
+    .attr('class', 'yearLabel')
+    .selectAll('yearLabel')
+    .data(years)
+    .enter()
+    .append('text')
+    .attr('x', gap)
+    .attr('y', function(d, i) {return buffer.y + i*grid_size.height + (i+1)*gap + grid_size.height/2 + 8; })
+    .text(function(d) { return d + " - "; });
+
+  // Label the x-axis with placement info
+  var ranklabels = svg.append("g")
+    .attr('class', 'rankLabel')
+    .selectAll('rankLabel')
+    .data(rank_text)
+    .enter()
+    .append('text')
+    .style('text-anchor', 'start')
+    // .attr('transform', function(d,i) {return 'translate('+ top_left(0,i).x + ',' + buffer.y + ')rotate(-35)'; } )
+    .attr('transform', function(d,i) {return 'translate('+ (top_left(0,i).x+grid_size.width/2)  + ',' + buffer.y + ')rotate(-45)'; } )
+    .text(function(d) { return ' - ' + d; });
+
+  // Add the actual data to the grid
+  for (var i=0; i<years.length; i++) {
+
+    year = years[i]
+    var ranks = [];
+    
+    for (var j=0; j<ranks_to_show; j++) {
+      ranks.push(rankdata[year][j]);
+    }
+
+    var dEnter = svg.append("g")
+      .attr("class", "trophy")
+      .selectAll("trophy")
+      .data(ranks)
+      .enter();
+
+    var rectangles = dEnter.append('rect')
+      // .style('fill', function(d) { return color_dict[d.name]; })
+      .style('fill', '#000')
+      .attr('x', function(d) { return top_left(i, d.rank).x; })
+      .attr('y', function(d) { return top_left(i, d.rank).y; })
+      // .attr('x', function(d) { return i*grid_size.width + (i+1)*gap; }) // Lays the years out horizontally
+      // .attr('y', function(d) { return d.rank*grid_size.height + (d.rank+1)*gap; })
+      .attr('width', grid_size.width)
+      .attr('height', grid_size.height)
+      .on("mouseover", function(d) {
+       div.transition()
+         .duration(200)
+         .style("opacity", .9);
+       div.html( "<b>"  + d.name + "</b><br>" + "Collabs in " + d.year + ": " + d.degree0 + "<br>" + "All-time collabs: " + d.degree1)
+         .style("left", (d3.event.pageX) + "px")
+         .style("top", (d3.event.pageY - 28) + "px");
+       })
+     .on("mouseout", function(d) {
+       div.transition()
+         .duration(500)
+         .style("opacity", 0);
+       });
+
+    var images = dEnter.append("svg:image")
+      .attr("xlink:href", function(d) { return d.imgurl; } )
+      .attr("height", grid_size.height)
+      .attr("width", grid_size.width)
+      .attr('x', function(d) { return top_left(i, d.rank).x; })
+      .attr('y', function(d) { return top_left(i, d.rank).y; })
+      .on("mouseover", function(d) {
+        d3.select(this).style("cursor", "pointer"); 
+        div.transition()
+          .duration(200)
+          .style("opacity", .9);
+        div.html( "<b>"  + d.name + "</b><br>" + "Collabs in " + d.year + ": " + d.degree0 + "<br>" + "All-time collabs: " + d.degree1)
+          .style("left", (d3.event.pageX) + "px")
+          .style("top", (d3.event.pageY - 28) + "px");
+       })
+     .on("mouseout", function(d) {
+        d3.select(this).style("cursor", "default");
+        div.transition()
+          .duration(500)
+          .style("opacity", 0);
+       })
+     .on("click", function(d){
+        window.location = d.geniusurl;    
+      });
+  }
+});
+  
+</script>
+
+</body>
+</html>
